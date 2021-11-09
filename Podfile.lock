@@ -1,0 +1,79 @@
+PODS:
+  - FacebookCore (0.9.0):
+    - FBSDKCoreKit (~> 5.0)
+  - FacebookShare (0.9.0):
+    - FacebookCore (~> 0.9.0)
+    - FBSDKCoreKit (~> 5.0)
+    - FBSDKShareKit (~> 5.0)
+  - FBSDKCoreKit (5.15.1):
+    - FBSDKCoreKit/Basics (= 5.15.1)
+    - FBSDKCoreKit/Core (= 5.15.1)
+  - FBSDKCoreKit/Basics (5.15.1)
+  - FBSDKCoreKit/Core (5.15.1):
+    - FBSDKCoreKit/Basics
+  - FBSDKShareKit (5.15.1):
+    - FBSDKShareKit/Share (= 5.15.1)
+  - FBSDKShareKit/Share (5.15.1):
+    - FBSDKCoreKit (~> 5.0)
+  - Google-Mobile-Ads-SDK (7.57.0):
+    - GoogleAppMeasurement (~> 6.0)
+  - GoogleAppMeasurement (6.4.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
+    - GoogleUtilities/MethodSwizzler (~> 6.0)
+    - GoogleUtilities/Network (~> 6.0)
+    - "GoogleUtilities/NSData+zlib (~> 6.0)"
+    - nanopb (= 0.3.9011)
+  - GoogleUtilities/AppDelegateSwizzler (6.5.2):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (6.5.2)
+  - GoogleUtilities/Logger (6.5.2):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (6.5.2):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (6.5.2):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (6.5.2)"
+  - GoogleUtilities/Reachability (6.5.2):
+    - GoogleUtilities/Logger
+  - nanopb (0.3.9011):
+    - nanopb/decode (= 0.3.9011)
+    - nanopb/encode (= 0.3.9011)
+  - nanopb/decode (0.3.9011)
+  - nanopb/encode (0.3.9011)
+  - SnapSDK/SCSDKCreativeKit (1.4.3)
+
+DEPENDENCIES:
+  - FacebookShare
+  - Google-Mobile-Ads-SDK
+  - SnapSDK/SCSDKCreativeKit
+
+SPEC REPOS:
+  trunk:
+    - FacebookCore
+    - FacebookShare
+    - FBSDKCoreKit
+    - FBSDKShareKit
+    - Google-Mobile-Ads-SDK
+    - GoogleAppMeasurement
+    - GoogleUtilities
+    - nanopb
+    - SnapSDK
+
+SPEC CHECKSUMS:
+  FacebookCore: ba86524b66cfa86d0f8e65d08faa8504a9f732dd
+  FacebookShare: 85968ad1b1606c4944fb154924e425fd29184ea5
+  FBSDKCoreKit: 1d5acf7c9d7a2f92bb1a242dc60cae5b7adb91df
+  FBSDKShareKit: 259737eab3cc807087374553abdf588b3096ba55
+  Google-Mobile-Ads-SDK: ec897018b9ab9b447e7aa4876e7f75aba13ba2de
+  GoogleAppMeasurement: 6e68a94d0eaeb1d73ef6b0ed4f7334e29d63ae29
+  GoogleUtilities: ad0f3b691c67909d03a3327cc205222ab8f42e0e
+  nanopb: 18003b5e52dab79db540fe93fe9579f399bd1ccd
+  SnapSDK: 0fba5594ece441d706e5d66380fdc098c094d4b4
+
+PODFILE CHECKSUM: b77a68199f32c5250bb79fd3374ce0dbc805fe3b
+
+COCOAPODS: 1.8.4
